@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>英雄联盟全新网站</title>
+		<link rel="icon" sizes="any" mask="" href="images/lol/lol_icon.ico">
+		<link rel="stylesheet" type="text/css" href="css/list.css" />
+		<link rel="stylesheet" type="text/css" href="阿里云图标/font_455638_qtvr72z2sx2prpb9/iconfont.css"/>
+		<script src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>
+		<script src="js/listData.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/list.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+
+	<body>
+		<div id="header"></div>
+		<div class="dongtai">
+			<div class="dongtai_title">
+				<div class="a1">英雄资料</div>
+				<div class="a2">Heroic Information</div>
+				<div><img src="images/three_points01.png" /></div>
+			</div>
+			<div class="list">英雄信息</div>
+			<div class="fenge">
+				<div class="f_line">
+					<!--<div class="f_pen"></div>-->
+				</div>
+			</div>
+			<ul class="listnierong"></ul>
+			<div class="clear_both"></div>
+			<div class="listbottom_logo">
+				<img src="images/lol/picture_lol_logo2.png" />
+			</div>
+
+			<div id="template">
+				<li class="listbox" onclick="window.open('article.html?type=xiaoniaoLOL&articleId=$sysId$','_self')">
+					<div class="listsmallbox">
+							<img src="$coverImg$" title="$coverTitle$"/>
+							<p class="b3">$describe$</p>
+							<div class="ico_search">
+								<i class="iconfont">&#xe626;</i>
+							</div>
+					</div>
+				</li>
+			</div>
+		</div>
+		<div id="footer"></div>
+		<script type="text/javascript">
+			$(function() {
+				$("#header").load("header.html#header")
+				$("#footer").load("footer.html#footer")
+			})
+		</script>
+	</body>
+
+</html>

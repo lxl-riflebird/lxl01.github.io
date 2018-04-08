@@ -1,0 +1,161 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+body{
+	font-family: "楷体";
+	background: #f1f2f6;
+}
+.clear_both{
+	clear: both;
+}
+.dongtai{
+	width: 1100px;
+	margin: auto;
+	padding-top: 40px;
+	background: #f1f2f6;
+}
+.dongtai_title{
+	text-align: center;
+	margin-bottom: 10px;
+}
+.dongtai_title .a1{
+	font-size: 40px;
+	font-weight: 800;
+	color: #513a71;
+}
+.dongtai_title .a2{
+	font-size: 20px;
+	color: #513a71;
+}
+.list{
+	font-weight: 800;
+	font-size: 20px;
+	color: #513a71;
+}
+.listnierong{
+	margin: 20px 0 20px;
+	border: 1px solid #E2E2E2;
+	background: white;
+	padding: 0px 8px;
+	border-top: 4px solid #D7D7D7;
+}
+.fenge{
+	height: 2px;
+	margin-top: 16px;
+	width: 100%;
+}
+.f_line{
+	height: 2px;
+	width: 1100px;
+	background: url(../images/pen_line_long.png);
+	background-size: 100%;
+	position: relative;
+}
+.f_pen{
+	width: 61px;
+    height: 54px;
+    background: url(../images/pen.png) left no-repeat;
+    position: absolute;
+    right: -52px;
+    bottom: -2px;
+}
+#template{
+	display: none;
+}
+
+.listbox{
+	width: 90px;
+	height: 100px;
+	padding: 20px 0px 0px;
+	float: left;
+	background: white;
+	
+
+}
+.listsmallbox{
+	width: 90px;
+	text-align: center;
+	font: normal 12px/1.6em Microsoft YaHei,Tahoma,simsun;
+	position: relative;
+}
+.listsmallbox img{
+	width: 66px;
+	height: 65px;
+	cursor: pointer;
+}
+.listsmallbox p{
+	text-align: center;
+	
+}
+.list_wenzi{
+	width: 240px;
+	height: 168px;
+	float: left;
+	margin-left: 10px;
+}
+.list_wenzi .b1{
+	font-size: 22px;
+	margin-top: 20px;
+}
+.list_wenzi .b2{
+	font-size: 14px;
+	margin-top: 4px;
+}
+.list_wenzi .b3{
+	font-size: 15px;
+	margin-top: 10px;
+	line-height: 24px;
+}
+.listbottom_logo{
+	width: 100%;
+	text-align: center;
+}
+.listbottom_logo img{
+	width: 300px;
+}
+.imgtextlist{
+	float: left;
+    width: 90px;
+    height: 100px;
+    margin-bottom: 22px;
+    text-align: center;
+    line-height: 15px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    
+}
+.imgtextlist img{
+	width: 66px;
+    height: 65px;
+}
+
+.imgtextlist a{
+	text-decoration: none;
+	color: black;
+}
+.ico_search{
+	width: 66px;
+	height: 66px;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 12px;
+    background: #00A383;
+    opacity: .8;
+    cursor: pointer;
+    text-align: center;
+    line-height: 66px;
+}
+.listsmallbox:hover .ico_search{
+	display: block;
+}
+.listsmallbox:hover .b3{
+	color: #00A383;
+}
+.ico_search i{
+	color: white;
+	font-size: 26px;
+}

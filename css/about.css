@@ -1,0 +1,524 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+div {
+	font-family: "楷体";
+}
+
+p {
+	font-family: "楷体";
+}
+.clear_both_80 {
+	clear: both;
+	height: 80px;
+}
+
+.show {
+	display: inline-block !important;
+}
+
+#menu {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	z-index: 70;
+	background: url(../images/aboutxiaoniao/beader_bg.jpg) center;
+	background-size: cover;
+	width: 100%;
+	height: 60px;
+}
+
+.menu_content {
+	width: 1100px;
+	height: 100%;
+	margin: auto;
+}
+
+.menu_logo {
+	float: left;
+	margin-right: 60px;
+	height: 60px;
+}
+.menu_logo img{
+	height: 100%;
+}
+#menu ul {
+	width: 880px;
+	height: 100%;
+	margin: auto;
+}
+
+#menu ul li {
+	height: 100%;
+	line-height: 60px;
+	float: left;
+	margin: 0 10px 0 0;
+	font-size: 16px;
+}
+
+.xiaodian {
+	position: absolute;
+	left: calc(50% - 2px);
+	bottom: calc(50% - 20px);
+	display: none;
+}
+.active .xiaodian{ display: inline-block;}
+/*.xiaodian.active{
+	display: inline-block;
+}*/
+#menu a {
+	float: left;
+	padding: 0px 20px;
+	/*background-color: #fff;*/
+	color: #c3bfbf;
+	text-decoration: none;
+	position: relative;
+}
+
+#menu .active a {
+	color: #fff;
+	/*background-color: #333;*/
+}
+
+.section {
+	text-align: center;
+	font: 50px "Microsoft Yahei";
+	color: #fff;
+	
+}
+.lol_back{
+	background: url(../images/lol/lol_back2.jpg) center 0% no-repeat;
+}
+.zhuan {
+	height: 300px;
+}
+
+.zhuan img {
+	height: 100%;
+}
+
+.se_content,
+.se_content_1,
+.se_content_2 {
+	width: 1100px;
+	/*height: 100%;*/
+	margin: auto;
+	text-align: center;
+}
+
+.next_down {
+	width: 58px;
+	height: 58px;
+	margin: 50px auto 50px;
+	position: relative;
+	overflow: hidden;
+	cursor: pointer;
+	display: block;
+}
+
+.next_down:hover .n_down {
+	top: 0;
+}
+
+.n_down {
+	position: absolute;
+	left: 0;
+	top: -58px;
+}
+
+.controlArrow {
+	width: 58px;
+	height: 58px;
+	border-style: none;
+}
+
+.controlArrow.prev,
+.controlArrow.next {
+	width: 58px;
+}
+
+.prev {
+	background: url(../images/aboutxiaoniao/goleft.png) left;
+}
+
+.prev:hover {
+	background-position: right;
+}
+
+.next {
+	background: url(../images/aboutxiaoniao/goright.png) right;
+}
+
+.next:hover {
+	background-position: left;
+}
+
+.se_content_1 {
+	color: #221236;
+}
+
+.gaishu {
+	width: 484px;
+	margin: 0 auto 20px;
+	font-size: 16px;
+	position: relative;
+}
+.lingtu1{
+	width: 620px;
+	margin: auto;
+}
+.lingtu1 img{
+	width: 250px;
+	height: 125px;
+	margin: 20px;
+}
+.lingtu2 img{
+	width: 300px;
+	cursor: pointer;
+}
+.slide{
+	position: relative;
+}
+.cover{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	background: #000000c4;
+	z-index: 99;
+	display: none;
+}
+.cover_son{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.cover_tu{
+	display: inline-block;
+	position: absolute;
+	width: 599px;
+	height: 374px;
+	padding: 20px;
+	left: calc(50% - 320px);
+	top: calc(50% - 207px);
+	background: white;
+	margin: auto;
+}
+.quxiao{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background: #b5f7ff;
+	position: absolute;
+	left: calc(50% + 300px);
+	top: calc(50% - 227px);
+	color: black;
+	text-align: center;
+	line-height: 16px;
+	cursor: pointer;
+}
+.lingtu3{
+	width: 680px;
+	margin: auto;
+	font-size: 30px;
+}
+.lingtu3 li{
+	float: left;
+}
+.lingtu3 img{
+	width: 300px;
+	height: 139px;
+	margin: 20px;
+}
+
+.yin2_zuo,
+.yin3_zuo {
+	position: absolute;
+	left: -20px;
+	top: -20px;
+}
+
+.yin2_you,
+.yin3_you {
+	position: absolute;
+	right: -20px;
+	bottom: -20px;
+}
+
+.bird_title {
+	/*margin-top: 40px;*/
+}
+
+.gaishu_1 {
+	width: 700px;
+	margin: auto;
+	position: relative;
+}
+
+.gaishu_3 {
+	width: 900px;
+	background: rgba(0, 0, 0, 0.63);
+	margin: auto;
+	position: relative;
+}
+.lol_back1{
+	background: url(../images/lol/lol_back3.jpg) 0% center;
+}
+.gaishu_2,
+.gaishu_4 {
+	width: 700px;
+	margin: auto;
+	font-size: 16px;
+	text-indent: 2em;
+	line-height: 23px;
+	margin-bottom: 40px;
+}
+
+.gaishu_4 {
+	
+	line-height: 36px;
+	text-align: left;
+	height: 396px;
+	overflow: hidden;
+	width: 700px;
+	position: relative;
+}
+.couple{
+	width: 675px;
+	text-align: center;
+}
+.gaishu_1_1 {
+	height: 99px;
+	margin-bottom: 20px;
+}
+
+.se_content_2 {
+	color: black;
+}
+
+.a_a {
+	float: left;
+	margin-right: 55px;
+	height: 99px;
+}
+
+.a_b {
+	float: left;
+	height: 99px;
+	text-align: left;
+}
+
+.a_b_1 {
+	font-size: 20px;
+	margin-top: 27px;
+}
+
+.a_b_2 {
+	font-size: 16px;
+}
+
+.a_b_3 {
+	margin-top: 30px;
+	font-size: 20px;
+}
+
+.slide3_title {
+	font-size: 30px;
+	width: 275px;
+	margin: 20px auto;
+	position: relative;
+}
+
+.jiazhi_tit {
+	font-size: 32px;
+	margin-top: 40px;
+}
+
+.jiazi_1 {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.jiazi_2 {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.jiazi_3 {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+.jiazi_4 {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+.jiazhi_num {
+	width: 860px;
+	height: 342px;
+}
+
+.jiazhi_num li {
+	width: 350px;
+	height: 74px;
+	float: left;
+	font-size: 16px;
+	margin: 20px 40px;
+}
+
+.quanquan {
+	width: 74px;
+	height: 74px;
+	background: url(../images/aboutxiaoniao/jiazhi_quanquan.png);
+	line-height: 74px;
+	text-align: center;
+	/*font-size: 16px;*/
+	float: left;
+}
+
+.quan_wen {
+	padding: 18px 0px;
+	width: 256px;
+	margin-left: 20px;
+	float: left;
+	text-align: left;
+	font-size: 28px;
+	color: #00ffe9;
+}
+/*介绍文字切换*/
+.qief{
+	width: 1440px;
+	height: 396px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.qief_1{
+	float: left;
+	height: 396px;
+	width: 700px;
+	margin-right: 20px;
+    background: url(../images/aboutxiaoniao/xuxian_bg.png);
+    position: relative;
+}
+.couple1{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	height: 143px;
+}
+.couple2{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	height: 166px;
+}
+/**/
+.qie_s{
+	width: 176px;
+	height: 8px;
+	margin: auto;
+}
+.qie{
+	width: 78px;
+	height: 8px;
+	background: url(../images/aboutxiaoniao/xiaoniaoyun_btn.png) bottom;
+	float: left;
+	margin: 0 5px;
+	overflow: hidden;
+}
+.qie1{
+	width: 78px;
+	height: 8px;	
+	background: url(../images/aboutxiaoniao/xiaoniaoyun_btn.png) top;
+	margin-left: 78px;	
+	transition: 0.5s;
+	/*这个transition要放在打得里面，保证不管有没有change这个class都能进行动画*/
+}
+.qie2{
+	width: 78px;
+	height: 8px;	
+	background: url(../images/aboutxiaoniao/xiaoniaoyun_btn.png) top;
+	margin-left: -78px;	
+	transition: 0.5s;
+}
+.qie.change .qie1{
+	margin-left: 0;
+	
+}
+.qie.change .qie2{
+	margin-left: 0;
+}
+/*二维码*/
+.erweima{
+	background: url(../images/aboutxiaoniao/appcontacts_bg.gif) center;
+}
+.gaishu_5 {
+	width: 780px;
+	margin: 65px auto 0;
+	/*position: relative;*/
+	height: 460px;
+	/*background: yellow;*/
+}
+.xiazai{
+	width: 780px;
+	height: 280px;
+	/*background: red;*/
+}
+.kefu{
+	width: 780px;
+	height: 160px;
+	
+}
+.ma_tu{
+	float: left;
+	width: 280px;
+	height: 280px;
+}
+.ma_tu img{
+	width: 100%;
+}
+.ma_tu1{
+	float: left;
+	width: 337px;
+	height: 280px;
+}
+
+.app_xiazai{
+	width: 250px;
+	height: 280px;
+	line-height: 280px;
+	float: left;
+	font-size: 26px;
+}
+.kefu_mm{
+	width: 400px;
+	height: 160px;
+	float: left;
+	
+	margin-left: 20px;
+	color: #221236;
+	text-align: left;
+	font-size: 16px;
+	position: relative;
+}
+.lian_mm{
+	font-size: 24px;
+	font-weight: 600;
+}
+.kefu_line{
+	background: url(../images/aboutxiaoniao/contacts_line.png) no-repeat ;
+	height: 6px;
+}
+.kf{
+	margin: 10px auto;
+}

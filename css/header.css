@@ -1,0 +1,98 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+/*body{
+	font:12px/180% Arial,Lucida,Verdana,"宋体",Helvetica,sans-serif;
+}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td,img {padding:0;margin:0;}*/
+#header{
+	background: #111111;
+	width: 100%;
+	height: 120px;
+}
+.header_fa{
+	width: 1100px;
+	height: 120px;
+	margin: auto;
+}
+#logo{
+	float: left;
+	width: 210px;
+	height: 120px;
+	overflow: hidden;
+}
+#logo img{
+	
+	height: 100%;
+}
+.header_fa ul{	
+	height: 120px;
+	line-height: 120px;
+	color: white;
+	float: left;
+	font-family: STKaiti, KaiTi_GB2312, "华文楷体", "宋体", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-left: 100px;
+}
+.header_fa ul li{
+	float: left;
+	margin-right: 30px;	
+	position: relative;
+}
+.header_fa ul li a{
+	text-decoration: none;
+	color: white;
+}
+.xiala li a{
+	width: 100%;
+	height: 100%;
+}
+.tou_la{
+	position: relative;
+}
+.header_fa ul li .dian{
+	position: absolute;
+	left: calc(50% - 2px);
+	bottom: -10px;
+}
+.header_fa ul li .xiajiantou{
+	vertical-align: text-bottom;
+}
+.hid{
+	display: none;
+}
+.header_fa ol{
+	
+	position: absolute;
+	left: -10px;
+	bottom: -105px;
+	z-index: 10;
+	display: none;
+}
+
+.header_fa ol li{
+	width: 140px;
+	height: 30px;
+	line-height: 30px;
+	color: white;
+	font-size: 16px;
+	overflow: hidden;
+	background: rgba(0,0,0,0.6);
+	padding-left: 12px;
+	cursor: pointer;
+	position: relative;
+	
+	
+}
+
+.nav_li{
+	width: 5px;
+	height: 8px;
+	position: absolute;
+	right: 155px;
+	top: 11px;
+	background: url(../images/nav_li_bg.png);
+}
+

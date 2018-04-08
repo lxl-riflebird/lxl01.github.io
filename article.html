@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>英雄联盟全新网站</title>
+		<link rel="icon" sizes="any" mask="" href="images/lol/lol_icon.ico">
+		<link rel="stylesheet" type="text/css" href="css/article.css" />
+		<script src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>
+		<script src="js/article.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/articleData.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+
+	<body>
+		<div id="header"></div>
+
+		<div class="article">
+			<div class="article_content">
+				<p class="a1">$typeTitle$</p>
+				<p class="a2">$typeEntitle$</p>
+				<div class="a3"><img src="images/three_points01.png" /></div>
+				<p class="a4">$title$</p>
+				<div class="fenge">
+					<div class="f_line">
+						<!--<div class="f_pen"></div>-->
+					</div>
+				</div>
+				<!--<p class="a5">$creatAt$ $creatByFullName$</p>-->
+				<div>
+					<div>
+						<img class="middle_img" src="$coverImg$">
+					</div>
+					<div style="clear: both;height: 40px;"></div>
+					<div>
+						$content$
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="footer"></div>
+		<script type="text/javascript">
+			$(function() {
+				$("#header").load("header.html#header")
+				$("#footer").load("footer.html#footer")
+			})
+		</script>
+
+	</body>
+
+</html>
